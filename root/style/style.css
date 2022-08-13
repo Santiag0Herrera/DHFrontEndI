@@ -1,0 +1,82 @@
+body{
+  margin: 0px;
+}
+
+header{
+  background-color: #F0A83E;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+li{
+  list-style: none;
+  margin: 15px;
+  color: white;
+  font-size: 13px;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mainPart{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mainSection{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.mainSection h2{
+  font-size: 30px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.mainSection button{
+  color: white;
+  background-color: #F0A83E;
+  border-style: none;
+  width: 141px;
+  height: 49px;
+}
+
+.orangePrint{
+  width: 67px;
+  height: 71px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.PrimarySubtitle{
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
